@@ -1,3 +1,4 @@
+```ssh
 #vim8的安装
 yum install ncurses-devel
 wget https://github.com/vim/vim/archive/master.zip
@@ -34,10 +35,9 @@ vim ~/.zshrc
 plugins=(
   git
   zsh-autosuggestions
-
   zsh-syntax-highlighting
   zsh-completions
   zsh-history-substring-search
 )
 
-
+```
