@@ -8,9 +8,10 @@ cd src/
 ./configure --enable-gui=auto --enable-gtk2-check --with-x   --with-features=huge  --prefix=/usr/local  --enable-pythoninterp=yes --with-python-config-dir=/usr/lib64/python3.4/config-3.4m
 make
 sudo make install
-
+```
 
 #install zsh
+```
 yum install zsh
 
 #install oh-my-zsh
@@ -22,7 +23,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-completions
 git clone https://github.com/zsh-users/zsh-history-substring-search
-
+```
 #vim
 ## intall vim plugin plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
